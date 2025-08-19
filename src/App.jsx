@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import FilterableList from './FilterableList.jsx';
+import DisableButton from './Disablebutton.jsx';
 
 function App() {
   return (
     <div>
-      <h1>SEARCH FILTER LIST</h1>
-      <FilterableList />
+      <h1>Self-Disabling Button</h1>
+      <DisableButton />
     </div>
   );
 }
