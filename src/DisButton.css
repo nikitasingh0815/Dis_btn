@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-color: #9f80a0; 
+}
+
+.app-container {
+  background-color: #9f80a0 
+  height: 100vh;              
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #9c1263;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+.custom-button:hover {
+  background-color: #849b06;
+}
+
+.custom-button.disabled {
+  background-color: #20af8b;
+  cursor: not-allowed;
+}
